@@ -10,8 +10,28 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
-
+.allIcons {
+  display: flex;
+  justify-content: center;
+}
+.firstIcon,
+.secondIcon,
+.thirdIcon,
+.fourthIcon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 52px;
+  width: 200px;
+  align-items: center;
+}
+.text {
+  justify-items: center;
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
